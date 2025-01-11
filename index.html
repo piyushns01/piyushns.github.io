@@ -3,59 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush N. Sharma's Website</title>
+    <title>Piyush Nandkishorji Sharma's Website</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+        /* Reset some default styles */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
             color: #333;
-        }
-        header {
-            background-color: #2E86C1;
-            color: white;
-            padding: 1.5rem;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            margin: 2rem auto;
-            max-width: 800px;
             line-height: 1.6;
         }
-        main p {
-            font-size: 1.2rem;
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            margin-bottom: 30px;
         }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .intro p strong {
+            color: #007BFF;
+        }
+
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
         footer {
             background-color: #333;
-            color: white;
-            padding: 0.8rem;
-            position: fixed;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
             bottom: 0;
             width: 100%;
-            font-size: 0.9rem;
         }
-        a {
-            color: #2E86C1;
-            text-decoration: none;
-            font-weight: bold;
+
+        footer p {
+            font-size: 1rem;
         }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to Piyush N. Sharma's Website</h1>
+        <h1>Piyush Nandkishorji Sharma's Website</h1>
     </header>
+
     <main>
-        <p>This website belongs to <strong>Piyush N. Sharma</strong>.</p>
-        <p>The official domain for this website is <a href="http://piyushns.in" target="_blank">piyushns.in</a>.</p>
-        <p>The site is currently under construction. Please visit again for updates!</p>
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>Hello, my name is <strong>Piyush Nandkishorji Sharma</strong>. I am a student in the Commerce stream, and I am passionate about technology and web development. I enjoy learning new skills and building projects that make a difference. This website is a place for me to showcase my journey, achievements, and anything else I find interesting!</p>
+            <p>As you know, I am a very handsome boy!</p>
+            <p><strong>जय श्री राम</strong></p> <!-- Added Jai Shree Ram in Hindi -->
+            <a href="#" class="btn">Contact Me</a>
+        </div>
     </main>
+
     <footer>
-        <p>&copy; 2025 Piyush N. Sharma. All rights reserved.</p>
+        <p>© 2025 Piyush Nandkishorji Sharma. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
